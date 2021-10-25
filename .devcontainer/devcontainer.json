@@ -3,7 +3,6 @@
     "dockerFile": "Dockerfile",
     "extensions": [
         "vknabel.vscode-swift-development-environment",
-        "pvasek.sourcekit-lsp--dev-unofficial",
         "vadimcn.vscode-lldb"],
     "settings": {
         "lldb.adapterType": "bundled",
