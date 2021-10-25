@@ -1,7 +1,6 @@
 {
     "name": "Swift-Vapor-DEV",
     "dockerFile": "Dockerfile",
-    "appPort": [8080],
     "extensions": [
         "vknabel.vscode-swift-development-environment",
         "pvasek.sourcekit-lsp--dev-unofficial",
