@@ -1,0 +1,13 @@
+{
+    "name": "Swift-Vapor-DEV",
+    "dockerFile": "Dockerfile",
+    "appPort": [8080],
+    "extensions": [
+        "vknabel.vscode-swift-development-environment",
+        "pvasek.sourcekit-lsp--dev-unofficial",
+        "vadimcn.vscode-lldb"],
+    "settings": {
+        "lldb.adapterType": "bundled",
+        "lldb.executable": "/usr/bin/lldb"
+    }
+}
