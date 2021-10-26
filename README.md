@@ -1,28 +1,15 @@
 # swift-vapor-dev
-
 Dev Enviroment com o ambiente Swift e Vapor já instalados.
 
-Contem o projeto hello world do vapor.
-
 ## Obtendo o devcontainer
-
-### Clonando o repositório e um volume docker
-Essa é a forma mais recomentada.
-
-Faça o fork ou um novo repositório utilizando esse como base.
-
-Aperte ctrl + p e selecione _clone Repository in Container Volume_ e cole o caminho do repositorio
-
-VS Code irá baixar o repositorio e iniciar o dev container.
-
-Docs: https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-clone-repository-in-container-volume 
-
-### Diretório no Windows
-É possível simplesmente baixar/clonar esse repositorio em uma diretório no seu windows e acessa-lo pelo vscode.
-Ao abrir a pasta o code irá sugerir _Reabrir em um devcontainer_.
-Clique no botão e aguarde o container ser iniciado.
-
-> Existe uma grande penalidade em performance utilizando este método
+1. Faça um fork ou crie um novo repositório utilizando esse de base
+2. Iniciar o docker desktop
+3. No VS Code:
+   - Instalar a extensão Remote - Containers
+ctrl + shift + p > Repository in Container Volume
+   - Colar o endereço do fork de https://github.com/medvish1/swift-vapor-dev
+   - Abrir o terminal do vs code e executar `sh ./run.sh`. 
+     - _Isso irá instalar tds as dependências e iniciar o servidor na porta 8080_
 
 
 ## Rodando
@@ -47,4 +34,3 @@ Instale as mesmas no container:
 
 ## Avisos
 Não é possível iniciar o servidor equnato o plugin estiver fazendo o build.
-
