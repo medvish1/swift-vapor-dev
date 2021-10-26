@@ -53,6 +53,12 @@ Instale as mesmas no container:
 
 > É necessário reiniciar o VS Code após instalar as etenções
 
+## Debug
+
+O debug já está configurado no projeto. Simplesmente adicione breakpoints na aplicação e aperte F5
+
 ## Avisos
-Não é possível iniciar o servidor equnato o plugin estiver fazendo o build.
+
+- Não é possível iniciar o servidor equnato o plugin estiver fazendo o build. (O status da bulding aparece na bara de status)
+- Se for reiniciar o VS Code, aguarde alguns seguns antes de abrir-lo novamente. O container docker leva um tempo para ser encerrado.
 

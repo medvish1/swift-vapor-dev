@@ -1,4 +1,6 @@
 {
     "sourcekit-lsp.serverPath": "/usr/bin/sourcekit-lsp",
-    "sde.languageServerMode": "sourcekit-lsp"
+    "sde.languageServerMode": "sourcekit-lsp",
+    "lldb.library": "/usr/lib/liblldb.so"
 }
+
