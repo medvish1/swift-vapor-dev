@@ -1,7 +1,8 @@
 # swift-vapor-dev
 Dev Enviroment com o ambiente Swift e Vapor já instalados.
 
-## Obtendo o devcontainer (Opção A)
+# Como instalar
+## Opção A: Devcontainer dentro de volume docker.
 1. Faça um fork ou crie um novo repositório utilizando esse de base
 2. Iniciar o docker desktop
 3. No VS Code:
@@ -15,7 +16,7 @@ Dev Enviroment com o ambiente Swift e Vapor já instalados.
 > 
 > É possível montar um diretório windows para dentro do dev container (Opção B, listada abaixo), porem as operações como build se tornam bem mais lentas.
 
-## Clone em um diretório windows (Opção B)
+## Opção B: Devcontainer em diretório Windows
 1. Iniciar o docker desktop
 2. Baixar/clonar esse repositorio em uma diretório no seu Windows
 3. Abrir a pasta pelo vscode
